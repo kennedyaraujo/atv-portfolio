@@ -47,8 +47,8 @@ footer {
 ul.white-itens li {
     background: white;
     margin: 10px 0;
-    padding: 0.5rem;
-    border-radius: 5px;
+    padding: 0.8rem;
+    border-radius: 10px;
     border: 1px solid #E5E5E5;
 }
 
@@ -134,7 +134,11 @@ section.connect {
     & ul {
         & li {
             text-align: center;
-        }
+            & span {
+                font-weight:bold ;
+                padding: 0 15px 0 0;
+            }
+        } 
     }
 }
 
